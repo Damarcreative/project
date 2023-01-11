@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+html {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.material {
+    position: relative;
+}
+
+.circle1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #4A63C8;
+    left: 70px;
+    top: 120px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #4A63C8;
+    right: -125px;
+    top: -120px;
+}
+
+.circle3 {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #4A63C8;
+    left: 600px;
+    top: 350px;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+
+.heroes {
+    background-color: #455CBA;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.hero .heading h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero .heading p {
+    color: #ffffff;
+}
+
+.hero form {
+    width: 420px;
+    height: 40px;
+    background-color: #5673E9;
+    border-radius: 20px;
+    padding: 4px 4px;
+    margin-top: 50px;
+}
+
+.hero form input {
+    background-color: transparent;
+    color: #ffffff;
+    height: 32px;
+    width: 260px;
+    border: none;
+    margin-left: 22px;
+}
+
+.hero form input::placeholder {
+    color: #ffffff;
+}
+
+.hero form input:focus {
+    outline: none;
+}
+
+.hero form button {
+    background-color: #ffffff;
+    font-size: 14px;
+    height: 32px;
+    width: 128px;
+    border: none;
+    border-radius: 16px;
+}
+
+.testimony {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.testimony .slidebutton {
+    display: flex;
+    float: right;
+}
+
+.testimony .slidebutton img {
+    margin: 4px;
+    width: 20px;
+}
+
+.testimony .image img {
+    width: 74px;
+    height: 74px;
+    object-fit: cover;
+}
+
+.testimony .slide {
+    background-color: #ffffff;
+    display: flex;
+    width: 400px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.testimony .slide .content {
+    margin-left: 10px;
+}
+
+.testimony .slide .content h5 {
+    color: #000000;
+    font-size: 16px;
+    margin: 0;
+}
+
+.testimony .slide .content p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.feature .card {
+    display: flex;
+}
+
+
+.feature .card .text {
+    font-size: 10px;
+}
+.feature .card h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.hero .illustration {
+    width: 500px;
+}
+
+
+.feature .card {
+    margin: 10px 0;
+    padding: 12px;
+    box-shadow: 2px 2px 4px rgb(221, 221, 221);
+    border-radius: 8px;
+    float: right;
+    border: none;
+    width: 80%;
+}
+
+.calltoaction {
+    background-color: #4A63C8;
+}
+
+.calltoaction h2 {
+    color: #ffffff;
+}
+
+.calltoaction a {
+    padding: 15px 14px !important;
+}
